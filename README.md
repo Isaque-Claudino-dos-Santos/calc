@@ -14,10 +14,10 @@
 
 Define calc root path
 ```bash 
-    export CALC_PATH
+    export CALC_PATH="$(pwd)/calc"
 ```
 
 Define alias `calc` in system
 ```bash
-    echo "alias calc='make ${HOME}${CALC_PATH}'" >> .bashrc
+    echo "alias calc='make ${HOME}${CALC_PATH}'" >> .bashrc && source .bashrc
 ```
