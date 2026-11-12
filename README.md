@@ -19,5 +19,5 @@ Define calc root path
 
 Define alias `calc` in system
 ```bash
-    echo "alias calc='make ${HOME}${CALC_PATH}'" >> .bashrc && source .bashrc
+    echo "alias calc='php ${HOME}${CALC_PATH}/index.php'" >> .bashrc && source .bashrc
 ```
